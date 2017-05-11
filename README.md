@@ -17,3 +17,6 @@ x AdminUser -> STI
 
 ## UI:
 - Bootstrap -> formatting
+
+## Refrator TODOS:
+- Refractor user asociation integration test in post spec
