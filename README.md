@@ -17,6 +17,8 @@
 
 ## UI:
 - x Bootstrap -> formatting
+- Icons from font awesome
+- x Update the styles for forms
 
 ## Refrator TODOS:
 - Refractor user asociation integration test in post spec
