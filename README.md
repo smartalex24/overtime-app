@@ -16,7 +16,7 @@
 - Needs to be documented if employee did not log overtime
 
 ## UI:
-- Bootstrap -> formatting
+- x Bootstrap -> formatting
 
 ## Refrator TODOS:
 - Refractor user asociation integration test in post spec
