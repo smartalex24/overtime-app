@@ -22,4 +22,4 @@
 - x Update the styles for forms
 
 ## Refrator TODOS:
-- Refractor user asociation integration test in post spec
+- Refractor posts/_form for admin user with status
