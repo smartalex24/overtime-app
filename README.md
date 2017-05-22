@@ -22,5 +22,4 @@
 - x Icons from glyphicons
 - x Update the styles for forms
 
-## Refrator TODOS:
-- x Refractor posts/_form for admin user with status
+## TODOS:
