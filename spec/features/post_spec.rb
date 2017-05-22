@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe 'navigate' do
-  let(:user) {FactoryGirl.create(:user) }
+  let(:user) { FactoryGirl.create(:user) }
 
   let(:post) do
     Post.create(date: Date.today, rationale: "Rationale", user_id: user.id, overtime_request: 3.5)
@@ -32,7 +32,7 @@ describe 'navigate' do
     end
 
     it 'has a scope so that only post creators can see their posts' do
-      other_user = User.create(first_name: 'Non', last_name: 'Authorized', email: 'nonauth@example.com', password: "asdfasdf", password_confirmation: "asdfasdf")
+      other_user = User.create(first_name: 'Non', last_name: 'Authorized', email: "nonauth@example.com", password: "asdfasdf", password_confirmation: "asdfasdf", phone: "5555555555")
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
 
       visit posts_path
