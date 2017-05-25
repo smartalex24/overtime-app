@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 20170523201943) do
     t.date     "date"
     t.text     "rationale"
     t.datetime "created_at",                       null: false
+    
     t.datetime "updated_at",                       null: false
     t.integer  "user_id"
     t.integer  "status",           default: 0
